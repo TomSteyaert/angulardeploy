@@ -18,6 +18,6 @@ commands:
 - echo Files deployed on `date`
 artifacts:
 files:
-- build**/*
+- **/*
 base-directory: 'dist'
 discard-paths: yes
